@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - LearnHub</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3 text-primary" href="index.html">
+                <i class="fas fa-graduation-cap me-2"></i>LearnHub
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fw-semibold" href="videos.html">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                
+                <div class="d-flex gap-2">
+                    <a href="#" class="btn btn-outline-primary">Log In</a>
+                    <a href="#" class="btn btn-primary">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="bg-primary text-white py-5" style="margin-top: 76px;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h1 class="display-4 fw-bold">Explore Our Courses</h1>
+                    <p class="lead">Discover thousands of courses from world-class instructors and universities</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fas fa-book-open display-1 opacity-50"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Section -->
+    <section class="bg-light py-4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-text bg-white border-end-0">
+                            <i class="fas fa-search text-muted"></i>
+                        </span>
+                        <input type="text" class="form-control border-start-0" placeholder="Search for courses, skills, or topics...">
+                        <button class="btn btn-primary" type="button">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Categories -->
+    <section class="py-4 bg-white">
+        <div class="container">
+            <ul class="nav nav-pills justify-content-center flex-wrap">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#all">All Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tech">Technology</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#business">Business</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#design">Design</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#marketing">Marketing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#science">Science</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Featured Course Banner -->
+    <section class="bg-success text-white py-5 mb-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h2 class="display-6 fw-bold mb-3">Featured Course</h2>
+                    <h3 class="mb-3">Complete Web Development Bootcamp</h3>
+                    <p class="lead mb-4">Master modern web development with HTML, CSS, JavaScript, React, Node.js and more. Build real projects and get job-ready skills.</p>
+                    <div class="d-flex align-items-center gap-3 mb-3">
+                        <span class="badge bg-light text-dark fs-6">Bestseller</span>
+                        <div class="text-warning">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="text-white ms-2">4.8 (15,234 ratings)</span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center gap-4">
+                        <span class="h4 mb-0">$19.99 <small class="text-decoration-line-through fs-6">$199.99</small></span>
+                        <button class="btn btn-light btn-lg">Enroll Now</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="bg-white text-success rounded-3 p-4">
+                        <i class="fas fa-code display-3"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Grid -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Course Card 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="position-relative">
+                            <div class="bg-primary text-white d-flex align-items-center justify-content-center" style="height: 200px;">
+                                <i class="fas fa-code display-4"></i>
+                            </div>
+                            <span class="position-absolute top-0 start-0 badge bg-success m-3">Bestseller</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">JavaScript Fundamentals</h5>
+                            <p class="text-muted small mb-2">By John Smith</p>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="text-warning me-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="text-muted small">4.9 (2,341)</span>
+                            </div>
+                            <p class="card-text text-muted">Master JavaScript from basics to advanced concepts. Perfect for beginners and experienced developers.</p>
+                        </div>
+                        <div class="card-footer bg-white border-top">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="h5 text-primary fw-bold">$29.99</span>
+                                    <small class="text-decoration-line-through text-muted ms-2">$199.99</small>
+                                </div>
+                                <small class="text-muted">
+                                    <i class="fas fa-clock me-1"></i>12 hours
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course Card 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="position-relative">
+                            <div class="bg-info text-white d-flex align-items-center justify-content-center" style="height: 200px;">
+                                <i class="fas fa-paint-brush display-4"></i>
+                            </div>
+                            <span class="position-absolute top-0 start-0 badge bg-warning m-3">Popular</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">UI/UX Design Masterclass</h5>
+                            <p class="text-muted small mb-2">By Sarah Johnson</p>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="text-warning me-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <span class="text-muted small">4.7 (1,892)</span>
+                            </div>
+                            <p class="card-text text-muted">Learn to design beautiful and functional user interfaces with industry-standard tools and techniques.</p>
+                        </div>
+                        <div class="card-footer bg-white border-top">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="h5 text-primary fw-bold">$39.99</span>
+                                    <small class="text-decoration-line-through text-muted ms-2">$299.99</small>
+                                </div>
+                                <small class="text-muted">
+                                    <i class="fas fa-clock me-1"></i>18 hours
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course Card 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="position-relative">
+                            <div class="bg-success text-white d-flex align-items-center justify-content-center" style="height: 200px;">
+                                <i class="fas fa-chart-line display-4"></i>
+                            </div>
+                            <span class="position-absolute top-0 start-0 badge bg-info m-3">New</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Digital Marketing Strategy</h5>
+                            <p class="text-muted small mb-2">By Mike Davis</p>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="text-warning me-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="text-muted small">4.8 (956)</span>
+                            </div>
+                            <p class="card-text text-muted">Comprehensive guide to digital marketing including SEO, social media, and paid advertising strategies.</p>
+                        </div>
+                        <div class="card-footer bg-white border-top">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="h5 text-primary fw-bold">$49.99</span>
+                                    <small class="text-decoration-line-through text-muted ms-2">$399.99</small>
+                                </div>
+                                <small class="text-muted">
+                                    <i class="fas fa-clock me-1"></i>22 hours
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course Card 4 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="position-relative">
+                            <div class="bg-warning text-white d-flex align-items-center justify-content-center" style="height: 200px;">
+                                <i class="fas fa-robot display-4"></i>
+                            </div>
+                            <span class="position-absolute top-0 start-0 badge bg-danger m-3">Hot</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Machine Learning with Python</h5>
+                            <p class="text-muted small mb-2">By Dr. Lisa Chen</p>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="text-warning me-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="text-muted small">4.9 (3,452)</span>
+                            </div>
+                            <p class="card-text text-muted">Learn machine learning algorithms and implement them using Python. Build real ML projects from scratch.</p>
+                        </div>
+                        <div class="card-footer bg-white border-top">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="h5 text-primary fw-bold">$59.99</span>
+                                    <small class="text-decoration-line-through text-muted ms-2">$499.99</small>
+                                </div>
+                                <small class="text-muted">
+                                    <i class="fas fa-clock me-1"></i>35 hours
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course Card 5 -->
+                <div class="col
